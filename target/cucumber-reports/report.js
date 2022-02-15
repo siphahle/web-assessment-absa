@@ -237,7 +237,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_has_launched_the_website()"
 });
 formatter.result({
-  "duration": 15335651700,
+  "duration": 15098172600,
   "status": "passed"
 });
 formatter.match({
@@ -250,14 +250,14 @@ formatter.match({
   "location": "AddUserSteps.a_user_checks_if_a_username_already_exists_on_the_list(String)"
 });
 formatter.result({
-  "duration": 195095200,
+  "duration": 181791400,
   "status": "passed"
 });
 formatter.match({
   "location": "AddUserSteps.a_user_clicks_on_the_add_user_button()"
 });
 formatter.result({
-  "duration": 93719200,
+  "duration": 88195400,
   "status": "passed"
 });
 formatter.match({
@@ -270,7 +270,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_firstname_on_the_populated_modal_screen(String)"
 });
 formatter.result({
-  "duration": 90740700,
+  "duration": 101200500,
   "status": "passed"
 });
 formatter.match({
@@ -283,7 +283,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_lastname(String)"
 });
 formatter.result({
-  "duration": 79620000,
+  "duration": 78362200,
   "status": "passed"
 });
 formatter.match({
@@ -296,7 +296,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_username(String)"
 });
 formatter.result({
-  "duration": 74225300,
+  "duration": 72645300,
   "status": "passed"
 });
 formatter.match({
@@ -309,7 +309,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_password(String)"
 });
 formatter.result({
-  "duration": 78418300,
+  "duration": 74559400,
   "status": "passed"
 });
 formatter.match({
@@ -322,7 +322,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_selects_a_company(String)"
 });
 formatter.result({
-  "duration": 89599900,
+  "duration": 221142400,
   "status": "passed"
 });
 formatter.match({
@@ -335,7 +335,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_chooses_a_role(String)"
 });
 formatter.result({
-  "duration": 87856600,
+  "duration": 99506600,
   "status": "passed"
 });
 formatter.match({
@@ -348,7 +348,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_email(String)"
 });
 formatter.result({
-  "duration": 107677100,
+  "duration": 99611900,
   "status": "passed"
 });
 formatter.match({
@@ -361,14 +361,14 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_cellphoneNo(String)"
 });
 formatter.result({
-  "duration": 75210100,
+  "duration": 71424100,
   "status": "passed"
 });
 formatter.match({
   "location": "AddUserSteps.a_user_saves_a_created_user()"
 });
 formatter.result({
-  "duration": 93168600,
+  "duration": 90474400,
   "status": "passed"
 });
 formatter.match({
@@ -381,7 +381,11 @@ formatter.match({
   "location": "AddUserSteps.a_user_checks_if_a_user_is_added(String)"
 });
 formatter.result({
-  "duration": 70501100,
+  "duration": 77247000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 677283400,
   "status": "passed"
 });
 formatter.scenario({
@@ -491,7 +495,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_has_launched_the_website()"
 });
 formatter.result({
-  "duration": 13859985800,
+  "duration": 13933267300,
   "status": "passed"
 });
 formatter.match({
@@ -504,14 +508,14 @@ formatter.match({
   "location": "AddUserSteps.a_user_checks_if_a_username_already_exists_on_the_list(String)"
 });
 formatter.result({
-  "duration": 188157700,
+  "duration": 159789500,
   "status": "passed"
 });
 formatter.match({
   "location": "AddUserSteps.a_user_clicks_on_the_add_user_button()"
 });
 formatter.result({
-  "duration": 4717639400,
+  "duration": 92850300,
   "status": "passed"
 });
 formatter.match({
@@ -524,7 +528,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_firstname_on_the_populated_modal_screen(String)"
 });
 formatter.result({
-  "duration": 83035400,
+  "duration": 90942600,
   "status": "passed"
 });
 formatter.match({
@@ -537,7 +541,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_lastname(String)"
 });
 formatter.result({
-  "duration": 67132500,
+  "duration": 77031400,
   "status": "passed"
 });
 formatter.match({
@@ -550,7 +554,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_username(String)"
 });
 formatter.result({
-  "duration": 79097200,
+  "duration": 88244700,
   "status": "passed"
 });
 formatter.match({
@@ -563,7 +567,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_password(String)"
 });
 formatter.result({
-  "duration": 77762500,
+  "duration": 99621700,
   "status": "passed"
 });
 formatter.match({
@@ -576,7 +580,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_selects_a_company(String)"
 });
 formatter.result({
-  "duration": 5068316000,
+  "duration": 562899600,
   "status": "passed"
 });
 formatter.match({
@@ -589,7 +593,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_chooses_a_role(String)"
 });
 formatter.result({
-  "duration": 88649900,
+  "duration": 97129800,
   "status": "passed"
 });
 formatter.match({
@@ -602,7 +606,7 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_email(String)"
 });
 formatter.result({
-  "duration": 97328000,
+  "duration": 131657200,
   "status": "passed"
 });
 formatter.match({
@@ -615,14 +619,14 @@ formatter.match({
   "location": "AddUserSteps.a_user_enters_cellphoneNo(String)"
 });
 formatter.result({
-  "duration": 65771200,
+  "duration": 75451500,
   "status": "passed"
 });
 formatter.match({
   "location": "AddUserSteps.a_user_saves_a_created_user()"
 });
 formatter.result({
-  "duration": 5054874000,
+  "duration": 87906300,
   "status": "passed"
 });
 formatter.match({
@@ -635,7 +639,11 @@ formatter.match({
   "location": "AddUserSteps.a_user_checks_if_a_user_is_added(String)"
 });
 formatter.result({
-  "duration": 98429700,
+  "duration": 77891200,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 673053400,
   "status": "passed"
 });
 });

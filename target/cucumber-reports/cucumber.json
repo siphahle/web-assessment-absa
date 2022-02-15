@@ -7,12 +7,23 @@
         "name": "Add new users to the table list",
         "description": "",
         "id": "add-new-users-to-the-table;add-new-users-to-the-table-list;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 677283400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddUserSteps.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 15335651700,
+              "duration": 15098172600,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 195095200,
+              "duration": 181791400,
               "status": "passed"
             },
             "line": 5,
@@ -45,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 93719200,
+              "duration": 88195400,
               "status": "passed"
             },
             "line": 6,
@@ -57,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 90740700,
+              "duration": 101200500,
               "status": "passed"
             },
             "line": 7,
@@ -78,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 79620000,
+              "duration": 78362200,
               "status": "passed"
             },
             "line": 8,
@@ -99,7 +110,7 @@
           },
           {
             "result": {
-              "duration": 74225300,
+              "duration": 72645300,
               "status": "passed"
             },
             "line": 9,
@@ -120,7 +131,7 @@
           },
           {
             "result": {
-              "duration": 78418300,
+              "duration": 74559400,
               "status": "passed"
             },
             "line": 10,
@@ -141,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 89599900,
+              "duration": 221142400,
               "status": "passed"
             },
             "line": 11,
@@ -162,7 +173,7 @@
           },
           {
             "result": {
-              "duration": 87856600,
+              "duration": 99506600,
               "status": "passed"
             },
             "line": 12,
@@ -183,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 107677100,
+              "duration": 99611900,
               "status": "passed"
             },
             "line": 13,
@@ -204,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 75210100,
+              "duration": 71424100,
               "status": "passed"
             },
             "line": 14,
@@ -225,7 +236,7 @@
           },
           {
             "result": {
-              "duration": 93168600,
+              "duration": 90474400,
               "status": "passed"
             },
             "line": 15,
@@ -237,7 +248,7 @@
           },
           {
             "result": {
-              "duration": 70501100,
+              "duration": 77247000,
               "status": "passed"
             },
             "line": 16,
@@ -263,12 +274,23 @@
         "name": "Add new users to the table list",
         "description": "",
         "id": "add-new-users-to-the-table;add-new-users-to-the-table-list;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 673053400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddUserSteps.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 13859985800,
+              "duration": 13933267300,
               "status": "passed"
             },
             "line": 4,
@@ -280,7 +302,7 @@
           },
           {
             "result": {
-              "duration": 188157700,
+              "duration": 159789500,
               "status": "passed"
             },
             "line": 5,
@@ -301,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 4717639400,
+              "duration": 92850300,
               "status": "passed"
             },
             "line": 6,
@@ -313,7 +335,7 @@
           },
           {
             "result": {
-              "duration": 83035400,
+              "duration": 90942600,
               "status": "passed"
             },
             "line": 7,
@@ -334,7 +356,7 @@
           },
           {
             "result": {
-              "duration": 67132500,
+              "duration": 77031400,
               "status": "passed"
             },
             "line": 8,
@@ -355,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 79097200,
+              "duration": 88244700,
               "status": "passed"
             },
             "line": 9,
@@ -376,7 +398,7 @@
           },
           {
             "result": {
-              "duration": 77762500,
+              "duration": 99621700,
               "status": "passed"
             },
             "line": 10,
@@ -397,7 +419,7 @@
           },
           {
             "result": {
-              "duration": 5068316000,
+              "duration": 562899600,
               "status": "passed"
             },
             "line": 11,
@@ -418,7 +440,7 @@
           },
           {
             "result": {
-              "duration": 88649900,
+              "duration": 97129800,
               "status": "passed"
             },
             "line": 12,
@@ -439,7 +461,7 @@
           },
           {
             "result": {
-              "duration": 97328000,
+              "duration": 131657200,
               "status": "passed"
             },
             "line": 13,
@@ -460,7 +482,7 @@
           },
           {
             "result": {
-              "duration": 65771200,
+              "duration": 75451500,
               "status": "passed"
             },
             "line": 14,
@@ -481,7 +503,7 @@
           },
           {
             "result": {
-              "duration": 5054874000,
+              "duration": 87906300,
               "status": "passed"
             },
             "line": 15,
@@ -493,7 +515,7 @@
           },
           {
             "result": {
-              "duration": 98429700,
+              "duration": 77891200,
               "status": "passed"
             },
             "line": 16,
