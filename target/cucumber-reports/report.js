@@ -51,12 +51,12 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "a user select a company \"\u003ccompany\u003e\"",
+  "name": "a user selects a company \"\u003ccompany\u003e\"",
   "keyword": "And "
 });
 formatter.step({
   "line": 12,
-  "name": "a user choose a role \"\u003crole\u003e\"",
+  "name": "a user chooses a role \"\u003crole\u003e\"",
   "keyword": "And "
 });
 formatter.step({
@@ -101,45 +101,31 @@ formatter.examples({
     },
     {
       "cells": [
-        "sipha1",
-        "Nipha1",
-        "sipha1",
-        "123",
+        "FName1",
+        "LName1",
+        "User1",
+        "Pass1",
         "Company AAA",
         "Admin",
-        "sipha@mail.com",
-        "043"
+        "admin@mail.com",
+        "082555"
       ],
       "line": 21,
       "id": "add-new-users-to-the-table;add-new-users-to-the-table-list;;2"
     },
     {
       "cells": [
-        "sipha2",
-        "Nipha2",
-        "sipha2",
-        "123",
+        "FName2",
+        "LName2",
+        "User2",
+        "Pass2",
         "Company BBB",
         "Customer",
-        "siphe@mail.com",
-        "021"
+        "customer@mail.com",
+        "083444"
       ],
       "line": 22,
       "id": "add-new-users-to-the-table;add-new-users-to-the-table-list;;3"
-    },
-    {
-      "cells": [
-        "sipha3",
-        "Nipha3",
-        "sipha2",
-        "123",
-        "Company BBB",
-        "Customer",
-        "siphe@mail.com",
-        "041"
-      ],
-      "line": 23,
-      "id": "add-new-users-to-the-table;add-new-users-to-the-table-list;;4"
     }
   ],
   "keyword": "Examples"
@@ -159,7 +145,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "a user checks if a username already exists on the list\"sipha1\"",
+  "name": "a user checks if a username already exists on the list\"User1\"",
   "matchedColumns": [
     2
   ],
@@ -172,7 +158,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "a user enters firstname on the populated modal screen\"sipha1\"",
+  "name": "a user enters firstname on the populated modal screen\"FName1\"",
   "matchedColumns": [
     0
   ],
@@ -180,7 +166,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "a user enters lastname \"Nipha1\"",
+  "name": "a user enters lastname \"LName1\"",
   "matchedColumns": [
     1
   ],
@@ -188,7 +174,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "a user enters username \"sipha1\"",
+  "name": "a user enters username \"User1\"",
   "matchedColumns": [
     2
   ],
@@ -196,7 +182,7 @@ formatter.step({
 });
 formatter.step({
   "line": 10,
-  "name": "a user enters password \"123\"",
+  "name": "a user enters password \"Pass1\"",
   "matchedColumns": [
     3
   ],
@@ -204,7 +190,7 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "a user select a company \"Company AAA\"",
+  "name": "a user selects a company \"Company AAA\"",
   "matchedColumns": [
     4
   ],
@@ -212,7 +198,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "a user choose a role \"Admin\"",
+  "name": "a user chooses a role \"Admin\"",
   "matchedColumns": [
     5
   ],
@@ -220,7 +206,7 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "a user enters email \"sipha@mail.com\"",
+  "name": "a user enters email \"admin@mail.com\"",
   "matchedColumns": [
     6
   ],
@@ -228,7 +214,7 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "a user enters cellphoneNo \"043\"",
+  "name": "a user enters cellphoneNo \"082555\"",
   "matchedColumns": [
     7
   ],
@@ -241,145 +227,161 @@ formatter.step({
 });
 formatter.step({
   "line": 16,
-  "name": "a user checks if a user is added \"sipha1\"",
+  "name": "a user checks if a user is added \"User1\"",
   "matchedColumns": [
     2
   ],
   "keyword": "And "
 });
 formatter.match({
-  "location": "AddUserSteps.a_user_has_launched_the_browser()"
+  "location": "AddUserSteps.a_user_has_launched_the_website()"
 });
 formatter.result({
-  "duration": 15474589800,
+  "duration": 15335651700,
   "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "User1",
+      "offset": 55
+    }
+  ],
+  "location": "AddUserSteps.a_user_checks_if_a_username_already_exists_on_the_list(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 195095200,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddUserSteps.a_user_clicks_on_the_add_user_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 93719200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "sipha1",
+      "val": "FName1",
       "offset": 54
     }
   ],
-  "location": "AddUserSteps.a_user_populate_firstname(String)"
+  "location": "AddUserSteps.a_user_enters_firstname_on_the_populated_modal_screen(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 90740700,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Nipha1",
+      "val": "LName1",
       "offset": 24
     }
   ],
-  "location": "AddUserSteps.a_user_populate_surname(String)"
+  "location": "AddUserSteps.a_user_enters_lastname(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 79620000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "sipha1",
+      "val": "User1",
       "offset": 24
     }
   ],
-  "location": "AddUserSteps.a_user_populate_username(String)"
+  "location": "AddUserSteps.a_user_enters_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 74225300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "123",
+      "val": "Pass1",
       "offset": 24
     }
   ],
-  "location": "AddUserSteps.a_user_populate_password(String)"
+  "location": "AddUserSteps.a_user_enters_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 78418300,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "Company AAA",
-      "offset": 25
+      "offset": 26
     }
   ],
-  "location": "AddUserSteps.a_user_select_a_company(String)"
+  "location": "AddUserSteps.a_user_selects_a_company(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89599900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "Admin",
-      "offset": 22
+      "offset": 23
     }
   ],
-  "location": "AddUserSteps.a_user_choose_a_role(String)"
+  "location": "AddUserSteps.a_user_chooses_a_role(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 87856600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "sipha@mail.com",
+      "val": "admin@mail.com",
       "offset": 21
     }
   ],
-  "location": "AddUserSteps.a_user_populate_email(String)"
+  "location": "AddUserSteps.a_user_enters_email(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 107677100,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "043",
+      "val": "082555",
       "offset": 27
     }
   ],
-  "location": "AddUserSteps.a_user_populate_cellphone(String)"
+  "location": "AddUserSteps.a_user_enters_cellphoneNo(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 75210100,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddUserSteps.a_user_saves_a_created_user()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 93168600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "sipha1",
+      "val": "User1",
       "offset": 34
     }
   ],
   "location": "AddUserSteps.a_user_checks_if_a_user_is_added(String)"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 700907100,
+  "duration": 70501100,
   "status": "passed"
 });
 formatter.scenario({
@@ -397,7 +399,7 @@ formatter.step({
 });
 formatter.step({
   "line": 5,
-  "name": "a user checks if a username already exists on the list\"sipha2\"",
+  "name": "a user checks if a username already exists on the list\"User2\"",
   "matchedColumns": [
     2
   ],
@@ -410,7 +412,7 @@ formatter.step({
 });
 formatter.step({
   "line": 7,
-  "name": "a user enters firstname on the populated modal screen\"sipha2\"",
+  "name": "a user enters firstname on the populated modal screen\"FName2\"",
   "matchedColumns": [
     0
   ],
@@ -418,7 +420,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "a user enters lastname \"Nipha2\"",
+  "name": "a user enters lastname \"LName2\"",
   "matchedColumns": [
     1
   ],
@@ -426,7 +428,7 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "a user enters username \"sipha2\"",
+  "name": "a user enters username \"User2\"",
   "matchedColumns": [
     2
   ],
@@ -434,7 +436,7 @@ formatter.step({
 });
 formatter.step({
   "line": 10,
-  "name": "a user enters password \"123\"",
+  "name": "a user enters password \"Pass2\"",
   "matchedColumns": [
     3
   ],
@@ -442,7 +444,7 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "a user select a company \"Company BBB\"",
+  "name": "a user selects a company \"Company BBB\"",
   "matchedColumns": [
     4
   ],
@@ -450,7 +452,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "a user choose a role \"Customer\"",
+  "name": "a user chooses a role \"Customer\"",
   "matchedColumns": [
     5
   ],
@@ -458,7 +460,7 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "a user enters email \"siphe@mail.com\"",
+  "name": "a user enters email \"customer@mail.com\"",
   "matchedColumns": [
     6
   ],
@@ -466,7 +468,7 @@ formatter.step({
 });
 formatter.step({
   "line": 14,
-  "name": "a user enters cellphoneNo \"021\"",
+  "name": "a user enters cellphoneNo \"083444\"",
   "matchedColumns": [
     7
   ],
@@ -479,383 +481,161 @@ formatter.step({
 });
 formatter.step({
   "line": 16,
-  "name": "a user checks if a user is added \"sipha2\"",
+  "name": "a user checks if a user is added \"User2\"",
   "matchedColumns": [
     2
   ],
   "keyword": "And "
 });
 formatter.match({
-  "location": "AddUserSteps.a_user_has_launched_the_browser()"
+  "location": "AddUserSteps.a_user_has_launched_the_website()"
 });
 formatter.result({
-  "duration": 13726754400,
+  "duration": 13859985800,
   "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "User2",
+      "offset": 55
+    }
+  ],
+  "location": "AddUserSteps.a_user_checks_if_a_username_already_exists_on_the_list(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 188157700,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddUserSteps.a_user_clicks_on_the_add_user_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4717639400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "sipha2",
+      "val": "FName2",
       "offset": 54
     }
   ],
-  "location": "AddUserSteps.a_user_populate_firstname(String)"
+  "location": "AddUserSteps.a_user_enters_firstname_on_the_populated_modal_screen(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 83035400,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Nipha2",
+      "val": "LName2",
       "offset": 24
     }
   ],
-  "location": "AddUserSteps.a_user_populate_surname(String)"
+  "location": "AddUserSteps.a_user_enters_lastname(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 67132500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "sipha2",
+      "val": "User2",
       "offset": 24
     }
   ],
-  "location": "AddUserSteps.a_user_populate_username(String)"
+  "location": "AddUserSteps.a_user_enters_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 79097200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "123",
+      "val": "Pass2",
       "offset": 24
     }
   ],
-  "location": "AddUserSteps.a_user_populate_password(String)"
+  "location": "AddUserSteps.a_user_enters_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 77762500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "Company BBB",
-      "offset": 25
+      "offset": 26
     }
   ],
-  "location": "AddUserSteps.a_user_select_a_company(String)"
+  "location": "AddUserSteps.a_user_selects_a_company(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5068316000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
       "val": "Customer",
-      "offset": 22
+      "offset": 23
     }
   ],
-  "location": "AddUserSteps.a_user_choose_a_role(String)"
+  "location": "AddUserSteps.a_user_chooses_a_role(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 88649900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "siphe@mail.com",
+      "val": "customer@mail.com",
       "offset": 21
     }
   ],
-  "location": "AddUserSteps.a_user_populate_email(String)"
+  "location": "AddUserSteps.a_user_enters_email(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 97328000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "021",
+      "val": "083444",
       "offset": 27
     }
   ],
-  "location": "AddUserSteps.a_user_populate_cellphone(String)"
+  "location": "AddUserSteps.a_user_enters_cellphoneNo(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 65771200,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddUserSteps.a_user_saves_a_created_user()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5054874000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "sipha2",
+      "val": "User2",
       "offset": 34
     }
   ],
   "location": "AddUserSteps.a_user_checks_if_a_user_is_added(String)"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 676204000,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 23,
-  "name": "Add new users to the table list",
-  "description": "",
-  "id": "add-new-users-to-the-table;add-new-users-to-the-table-list;;4",
-  "type": "scenario",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 4,
-  "name": "a user has launched the website",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 5,
-  "name": "a user checks if a username already exists on the list\"sipha2\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 6,
-  "name": "a user clicks on the add user button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "a user enters firstname on the populated modal screen\"sipha3\"",
-  "matchedColumns": [
-    0
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "a user enters lastname \"Nipha3\"",
-  "matchedColumns": [
-    1
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 9,
-  "name": "a user enters username \"sipha2\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 10,
-  "name": "a user enters password \"123\"",
-  "matchedColumns": [
-    3
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 11,
-  "name": "a user select a company \"Company BBB\"",
-  "matchedColumns": [
-    4
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 12,
-  "name": "a user choose a role \"Customer\"",
-  "matchedColumns": [
-    5
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 13,
-  "name": "a user enters email \"siphe@mail.com\"",
-  "matchedColumns": [
-    6
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 14,
-  "name": "a user enters cellphoneNo \"041\"",
-  "matchedColumns": [
-    7
-  ],
-  "keyword": "And "
-});
-formatter.step({
-  "line": 15,
-  "name": "a user saves a created user",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 16,
-  "name": "a user checks if a user is added \"sipha2\"",
-  "matchedColumns": [
-    2
-  ],
-  "keyword": "And "
-});
-formatter.match({
-  "location": "AddUserSteps.a_user_has_launched_the_browser()"
-});
-formatter.result({
-  "duration": 13552994800,
-  "status": "passed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({
-  "location": "AddUserSteps.a_user_clicks_on_the_add_user_button()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "sipha3",
-      "offset": 54
-    }
-  ],
-  "location": "AddUserSteps.a_user_populate_firstname(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Nipha3",
-      "offset": 24
-    }
-  ],
-  "location": "AddUserSteps.a_user_populate_surname(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "sipha2",
-      "offset": 24
-    }
-  ],
-  "location": "AddUserSteps.a_user_populate_username(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "123",
-      "offset": 24
-    }
-  ],
-  "location": "AddUserSteps.a_user_populate_password(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Company BBB",
-      "offset": 25
-    }
-  ],
-  "location": "AddUserSteps.a_user_select_a_company(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Customer",
-      "offset": 22
-    }
-  ],
-  "location": "AddUserSteps.a_user_choose_a_role(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "siphe@mail.com",
-      "offset": 21
-    }
-  ],
-  "location": "AddUserSteps.a_user_populate_email(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "041",
-      "offset": 27
-    }
-  ],
-  "location": "AddUserSteps.a_user_populate_cellphone(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "AddUserSteps.a_user_saves_a_created_user()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "sipha2",
-      "offset": 34
-    }
-  ],
-  "location": "AddUserSteps.a_user_checks_if_a_user_is_added(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.after({
-  "duration": 664669000,
+  "duration": 98429700,
   "status": "passed"
 });
 });
